@@ -1,6 +1,7 @@
 
 fun main (){
 
+
     val a= Point()
     a.x=5f
     a.y=6f
@@ -32,7 +33,7 @@ class Point{
     }
     fun symmetry (){
         y=-y
-        return println("სიმეტრიული y ღერძის მიმართ არის($x , $y) ")
+        return println("სიმეტრიული x ღერძის მიმართ არის($x , $y) ")
 
     }
 
